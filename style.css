@@ -34,12 +34,18 @@ table, th, td {
     padding: 2%;
 }
 
+table {
+    overflow: hidden;
+    border-radius: 1em;
+}
+
 .tableLeft {
     text-align: right;
 }
 
 ul {
     list-style-type: none;
+    padding-left: 0;
 }
 
 .sousLI {
